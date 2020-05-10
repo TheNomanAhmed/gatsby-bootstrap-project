@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap");
+
+/* Global Settings */
+
+body {
+  color: #585858;
+}
+
+.navbar {
+  position: relative;
+  display: inherit;
+  flex-wrap: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  padding: inherit;
+}
+
+.maxLogoWidth {
+  max-width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 2rem;
+}
+
+.navbar-light .navbar-toggler {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.nav ul {
+  margin-left: 0px;
+  font-size: 1.3em;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}
+
+header .container {
+  border-bottom: 1px solid #f6dfa4;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+/* Font sizes and type */
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  /* font-style: inherit; */
+}
+
+footer h2,
+footer p {
+  color: inherit;
+}
+
+/* Custom Grid */
+
+.singleCol {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.floatRight {
+  float: right;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.card {
+  margin-bottom: 10px;
+  background-image: url("../images/gallery3.png");
+  background-repeat: no-repeat;
+  background-position: -55px -6px;
+  background-size: 230px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #5e6db4;
+  color: white;
+  padding: 20px 0px;
+  margin-top: 20px;
+}
+
+footer h2 {
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+footer a {
+  color: white;
+  border-bottom: 1px dotted white;
+}
+
+footer a:hover {
+  color: #f6dfa4;
+  border-bottom: 1px dotted #f6dfa4;
+  text-decoration: none;
+}
